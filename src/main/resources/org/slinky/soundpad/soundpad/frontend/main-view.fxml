@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.GridPane?>
+
+<GridPane fx:controller="org.slinky.soundpad.soundpad.frontend.MainController"
+          xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/21"
+          hgap="10" vgap="10" alignment="CENTER">
+
+    <padding>
+        <Insets top="20" right="20" bottom="20" left="20"/>
+    </padding>
+
+    <Button text="Som 1" GridPane.columnIndex="0" GridPane.rowIndex="0" prefWidth="100" prefHeight="50"/>
+    <Button text="Som 2" GridPane.columnIndex="1" GridPane.rowIndex="0" prefWidth="100" prefHeight="50"/>
+    <Button text="Som 3" GridPane.columnIndex="2" GridPane.rowIndex="0" prefWidth="100" prefHeight="50"/>
+
+    <Button text="Som 4" GridPane.columnIndex="0" GridPane.rowIndex="1" prefWidth="100" prefHeight="50"/>
+    <Button text="Som 5" GridPane.columnIndex="1" GridPane.rowIndex="1" prefWidth="100" prefHeight="50"/>
+    <Button text="Som 6" GridPane.columnIndex="2" GridPane.rowIndex="1" prefWidth="100" prefHeight="50"/>
+
+</GridPane>
